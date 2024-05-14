@@ -1,6 +1,6 @@
 # calculo_cdb
 
-Challenge B3 - CBD Calculation
+Challenge B3 - CDB Calculation
 
 ## CDB calculation
 
@@ -12,48 +12,48 @@ Challenge B3 - CBD Calculation
 
 ### 1 - Clone the repository 
 
-´´´ git clone https://github.com/SantosCristiano/challenge-B3 ´´´
+``` git clone https://github.com/SantosCristiano/challenge-B3 ```
 
 ### 2 - Enter folder 
 
-´´´ cd challenge-B3 ´´´
+``` cd challenge-B3 ```
 
 ### 3 - Enter folder 
 
-´´´ cd app ´´´
+``` cd app ```
 
 ### 4 - Run 
 
-´´´ dotnet build ´´´
+``` dotnet build ```
 
 ## Run application
 
 ### 1 - Run
 
-´´´ dotnet run ´´´
+``` dotnet run ```
 
 ## Running unit tests and logical layer coverage reports 
 
-´´´ coverlet.collector ´´´
-´´´ coverlet.msbuild ´´´
-´´´ MSTest.TestFramework ´´´
+``` coverlet.collector ```
+``` coverlet.msbuild ```
+``` MSTest.TestFramework ```
 
 ### 1 - Enter folder 
 
-´´´ ./challenge-B3/calculo-cdb.Test ´´´´
+``` ./challenge-B3/calculo-cdb.Test ```´
 
 ### 2 - Run
 
-´´´ dotnet test --filter 'FullyQualifiedName!~calculo0cdb.Tests' /p:CollectCoverage=true ´´´
+``` dotnet test --filter 'FullyQualifiedName!~calculo0cdb.Tests' /p:CollectCoverage=true ```
 
 ## Running unit tests in Angular
 
 ### 1 - Enter folder 
 
-´´´ cd ClientApp ´´´
+``` cd ClientApp ```
 
 ### 2 - Run
 
-´´´ ng test ´´´
+``` ng test ```
 
  Unit tests via [Karma](https://karma-runner.github.io).
