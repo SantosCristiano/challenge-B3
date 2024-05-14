@@ -1,6 +1,6 @@
 # calculo_cdb
 
-Challenge B3 - CBD Calculation
+Challenge B3 - CDB Calculation
 
 ## CDB calculation
 
