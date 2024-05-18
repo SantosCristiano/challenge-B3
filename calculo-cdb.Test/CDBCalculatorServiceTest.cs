@@ -1,5 +1,4 @@
-﻿
-using calculo_cdb.Logic;
+﻿using calculo_cdb.Logic;
 
 namespace calculo_cdb.Test
 { 

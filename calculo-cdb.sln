@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.31903.59
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculo-cdb.AngularApp", "app\calculo-cdb.AngularApp.csproj", "{6D8FF27C-18F4-46E6-A354-54BF85291282}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculo-cdb.Server", "calculo-cdb.Server\calculo-cdb.Server.csproj", "{A7D5B477-1A0A-4341-9434-BA63FC415150}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculo-cdb.Test", "calculo-cdb.Test\calculo-cdb.Test.csproj", "{83BB94F3-9574-475C-95F5-EF549C29D462}"
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "calculo-cdb.client", "calculo-cdb.client\calculo-cdb.client.esproj", "{95C50039-3969-4E6A-9D41-D4E8EF47E170}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculo-cdb.Logic", "calculo-cdb.Logic\calculo-cdb.Logic.csproj", "{FA9E256A-7FAC-4A62-9EE4-8470FCA73803}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculo-cdb.Logic", "calculo-cdb.Logic\calculo-cdb.Logic.csproj", "{9CB8DC84-ADBA-4E7A-A8CF-AAD75C1F9C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculo-cdb.Test", "calculo-cdb.Test\calculo-cdb.Test.csproj", "{12823BF6-A66D-4960-B78D-F7623D96A59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +17,29 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D8FF27C-18F4-46E6-A354-54BF85291282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D8FF27C-18F4-46E6-A354-54BF85291282}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D8FF27C-18F4-46E6-A354-54BF85291282}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D8FF27C-18F4-46E6-A354-54BF85291282}.Release|Any CPU.Build.0 = Release|Any CPU
-		{83BB94F3-9574-475C-95F5-EF549C29D462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{83BB94F3-9574-475C-95F5-EF549C29D462}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{83BB94F3-9574-475C-95F5-EF549C29D462}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{83BB94F3-9574-475C-95F5-EF549C29D462}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FA9E256A-7FAC-4A62-9EE4-8470FCA73803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA9E256A-7FAC-4A62-9EE4-8470FCA73803}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FA9E256A-7FAC-4A62-9EE4-8470FCA73803}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FA9E256A-7FAC-4A62-9EE4-8470FCA73803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D5B477-1A0A-4341-9434-BA63FC415150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D5B477-1A0A-4341-9434-BA63FC415150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D5B477-1A0A-4341-9434-BA63FC415150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D5B477-1A0A-4341-9434-BA63FC415150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95C50039-3969-4E6A-9D41-D4E8EF47E170}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9CB8DC84-ADBA-4E7A-A8CF-AAD75C1F9C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB8DC84-ADBA-4E7A-A8CF-AAD75C1F9C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB8DC84-ADBA-4E7A-A8CF-AAD75C1F9C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB8DC84-ADBA-4E7A-A8CF-AAD75C1F9C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12823BF6-A66D-4960-B78D-F7623D96A59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12823BF6-A66D-4960-B78D-F7623D96A59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12823BF6-A66D-4960-B78D-F7623D96A59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12823BF6-A66D-4960-B78D-F7623D96A59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22286A1C-A544-4ADB-B121-8223595B5AB6}
 	EndGlobalSection
 EndGlobal

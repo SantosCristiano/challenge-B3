@@ -1,0 +1,6 @@
+@calculo_cdb.Server_HostAddress = http://localhost:5089
+
+GET {{calculo_cdb.Server_HostAddress}}/cdbcalculator
+Accept: application/json
+
+###
