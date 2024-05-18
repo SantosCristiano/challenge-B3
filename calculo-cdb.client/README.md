@@ -2,6 +2,8 @@
 
 Challenge B3 - CDB Calculation
 
+![Result Calculation](https://teckins.com/img/projetos/B3.png)
+
 ## CDB calculation
 
 (FrontEnd) Angular, TypeScript and Bootstrap [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2
