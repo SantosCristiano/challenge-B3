@@ -8,7 +8,7 @@ Challenge B3 - CDB Calculation
 
 (FrontEnd) Angular, TypeScript and Bootstrap [Angular CLI](https://github.com/angular/angular-cli) version 12.0.2
 
-(BackEnd) C# and ASP.NET Core [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet)
+(BackEnd) C# and [ASP.NET](https://dotnet.microsoft.com/en-us/apps/aspnet) Core 
 
 ## Installation
 
